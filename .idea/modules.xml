@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Ioc.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Simple_Ioc.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Simple_Ioc.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/injectorlib/Simple_Ioc.injectorlib.iml" filepath="$PROJECT_DIR$/.idea/modules/injectorlib/Simple_Ioc.injectorlib.iml" />
+    </modules>
+  </component>
+</project>

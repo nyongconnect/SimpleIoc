@@ -1,0 +1,3 @@
+rootProject.name = "Simple Ioc"
+include ':app'
+include ':injectorlib'
