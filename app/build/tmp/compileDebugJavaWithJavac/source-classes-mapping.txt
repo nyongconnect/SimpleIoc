@@ -1,0 +1,12 @@
+com/example/simpleioc/MainActivity.java
+ com.example.simpleioc.MainActivity
+com/example/simpleioc/BuildConfig.java
+ com.example.simpleioc.BuildConfig
+com/example/simpleioc/home.java
+ com.example.simpleioc.home
+com/example/simpleioc/TestInterface.java
+ com.example.simpleioc.TestInterface
+com/example/simpleioc/TestInterfaceImpl.java
+ com.example.simpleioc.TestInterfaceImpl
+com/example/simpleioc/container.java
+ com.example.simpleioc.container

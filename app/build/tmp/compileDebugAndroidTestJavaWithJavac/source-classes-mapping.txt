@@ -1,0 +1,4 @@
+com/example/simpleioc/ExampleInstrumentedTest.java
+ com.example.simpleioc.ExampleInstrumentedTest
+com/example/simpleioc/test/BuildConfig.java
+ com.example.simpleioc.test.BuildConfig

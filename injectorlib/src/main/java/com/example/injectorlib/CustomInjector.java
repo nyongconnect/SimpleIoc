@@ -41,6 +41,7 @@ public class CustomInjector {
      *
      * @param startupClass any class from the client side.
      */
+    @RequiresApi(api = Build.VERSION_CODES.N)
     public static DependencyContainer run(Class<?> startupClass) {
         return run(startupClass, new CustomConfiguration());
     }
@@ -51,7 +52,8 @@ public class CustomInjector {
      * @param startupClass  any class from the client side.
      * @param configuration client configuration.
      */
-    @SuppressLint("NewApi")
+
+    @RequiresApi(api = Build.VERSION_CODES.N)
     public static DependencyContainer run(Class<?> startupClass, CustomConfiguration configuration) {
         final DependencyContainer dependencyContainer = run(new File[]{
                 new File(new DirectoryResolverImpl().resolveDirectory(startupClass).getDirectory()),
@@ -149,7 +151,6 @@ public class CustomInjector {
             } catch (IllegalAccessException | InvocationTargetException e) {
                 throw new RuntimeException(e);
             }
-
             return;
         }
     }

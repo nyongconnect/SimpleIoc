@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
+import java.security.ProtectionDomain;
 
 public class DirectoryResolverImpl implements DirectoryResolver {
 
@@ -36,7 +37,9 @@ public class DirectoryResolverImpl implements DirectoryResolver {
      */
     private String getDirectory(Class<?> cls) {
         try {
-            return URLDecoder.decode(cls.getProtectionDomain().getCodeSource().getLocation().getFile(), StandardCharsets.UTF_8.toString());
+
+            ProtectionDomain protectionDomain = cls.getProtectionDomain();
+            return URLDecoder.decode(protectionDomain.getCodeSource().getLocation().getFile(), StandardCharsets.UTF_8.toString());
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }

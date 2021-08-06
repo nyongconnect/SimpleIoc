@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Ioc.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Ioc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Simple_Ioc.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Simple_Ioc.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/injectorlib/Simple_Ioc.injectorlib.iml" filepath="$PROJECT_DIR$/.idea/modules/injectorlib/Simple_Ioc.injectorlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/simpleioc/Simple_Ioc.simpleioc.iml" filepath="$PROJECT_DIR$/.idea/modules/simpleioc/Simple_Ioc.simpleioc.iml" />
     </modules>
   </component>
 </project>
